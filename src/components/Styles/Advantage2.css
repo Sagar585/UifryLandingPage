@@ -59,3 +59,28 @@
       width:75%;
       text-align: justify;
   }
+
+
+
+
+  @media screen and (max-width: 768px) {
+    .Advantage2Section {
+      flex-direction: column-reverse;
+      margin: 0px 20px;
+    }
+  
+    .Advantage2Right {
+      flex: 0.5;
+      height: 80vh;
+      margin: 20px 20px ;
+      left: 0px;
+    }
+
+    .Advantage2Left {
+      flex: 0.5;
+      height: 80vh;
+      margin: 20px 20px ;
+      margin-top: 0px;
+    }
+  }
+  

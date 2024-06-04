@@ -97,3 +97,37 @@
   transform: scale(1.05);
   transition: all 0.4s ease-in-out 0s;
 }
+
+
+@media screen and (max-width: 768px) {
+  .aboutHero{
+    margin-left: 0px;
+  }
+  
+  .heroSection{
+    flex-direction: column;
+    margin: 0px 50px;
+  }
+  .aboutHeroText h1{
+    font-size: 1.5rem;
+    width: 80%;
+    line-height: 40px;
+  }
+  .aboutHeroText p{
+    font-size: 1rem;
+    width: 80%;
+  }
+
+  .aboutheroimage{
+    display: relative;
+    top: 100px;
+  }
+  .heroSection{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+  }
+  .imageHero{
+
+  }
+}

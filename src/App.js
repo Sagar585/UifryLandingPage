@@ -6,6 +6,7 @@ import Advantage from './components/Advantage';
 import Advantage2 from './components/Advantage2';
 import Testimonial from './components/Testimonial';
 import FAQ from './components/FAQ';
+import GetReadyToStart from './components/GetReadyToStart';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Advantage2></Advantage2>
       <Testimonial></Testimonial>
       <FAQ></FAQ>
+      <GetReadyToStart></GetReadyToStart>
     </div>
   );
 }
