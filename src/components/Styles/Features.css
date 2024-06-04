@@ -1,0 +1,63 @@
+.featureSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -107px 0px;
+}
+
+.featureLeft {
+  flex: 0.5;
+  height: 100vh;
+  position: relative;
+  margin-left: 20px;
+}
+
+.featureRight {
+  flex: 0.5;
+  z-index: 2;
+  height: 100vh;
+  position: relative;
+}
+
+.featureLeft img {
+  width: 90%;
+  margin-top: -40px;
+}
+
+.featureSmoke {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 35%;
+  z-index: -1;
+}
+
+.Heading {
+  color: #ff5555;
+  font-size: 1.2rem;
+}
+
+.Premium {
+  font-size: 2.5rem;
+  margin: 5px 0px;
+  margin-top: -10px;
+  font-weight: 900;
+}
+
+.bulletPoints{
+  z-index: 1;
+}
+
+
+.bulletPoints h2 {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.bulletPoints p{
+    font-size: 1rem;
+    font-weight: 400;
+    width:85%;
+}

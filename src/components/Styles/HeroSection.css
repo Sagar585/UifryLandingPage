@@ -1,0 +1,99 @@
+.heroSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+.aboutHero {
+  flex: 0.5;
+  /* margin: 0px 20px; */
+  margin-left: 80px;
+  height: 100vh;
+  position: relative;
+  
+}
+
+.aboutheroimage{
+  z-index: -1;
+  width: 75%;
+  margin-right: 80px;
+  position: absolute;
+  top: -40px;
+}
+
+.aboutHeroText{
+  z-index: 10;
+}
+
+.imageHero {
+  flex: 0.5;
+}
+
+.imageHero img {
+  width: 95%;
+}
+
+.aboutHero h1 {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 64px;
+  width: 107%;
+}
+
+.aboutHero p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.quickaccess {
+  margin-top: 20px;
+  display: flex;
+
+}
+
+.quickaccess a {
+  appearance: button;
+  text-decoration: none;
+  width: 180px;
+  max-width: 300px;
+  text-align: center;
+  padding: 16px 0px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.quickaccess a {
+  padding: 10px 25px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.Watchvid {
+  background-color: white;
+  border: 0px solid white;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -2;
+}
+
+.Watchvid img {
+  padding: 0px 20px;
+}
+
+.quickaccess a:hover {
+  transform: scale(1.05);
+  transition: all 0.4s ease-in-out 0s;
+}

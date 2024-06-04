@@ -1,0 +1,70 @@
+.FAQ {
+  display: flex;
+  flex-direction: column;
+}
+.FAQcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  gap: 55px;
+  flex-wrap: wrap;
+}
+
+.FAQs.red {
+  background-color: #FF5555;
+  color: #fff;
+}
+
+.FAQs.white {
+  background-color: #fff;
+  color: black;
+}
+
+.grid-item {
+  padding: 15px;
+  font-size: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0px;
+  gap: 20px;
+  justify-content: center;
+  /* margin: 0px auto; */
+  margin: 0px 10%;
+}
+
+.FAQHeading{
+    margin: 0 10%;
+}
+.FAQHeading h1 {
+  color: #ff5555;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0;
+}
+.FAQHeading h3 {
+    margin: 0;
+    font-size: 3rem;
+    width: 35%;
+    font-weight: 900;
+}
+
+
+.FAQ-content h3{
+font-size: 1.6rem;
+}
+
+.FAQ-content p{
+font-size: 1.2rem;
+}
